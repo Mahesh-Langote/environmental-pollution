@@ -1,0 +1,680 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Environmental Pollution</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/utils.css">
+    <link rel="stylesheet" href="menu-box.css">
+</head>
+<style>
+    .dropdown {
+        position: relative;
+        display: inline-block;
+    }
+
+    .dropdown-content {
+        margin-top: 4px;
+        display: none;
+        position: absolute;
+        background: rgba(191, 177, 233, 0.966);
+        min-width: 160px;
+        /* color: black; */
+        border-radius: 12px;
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+        z-index: 1;
+    }
+
+    .dropdown-content a {
+        color: black;
+        text-decoration: none;
+        display: block;
+    }
+
+    .dropdown-content a:hover {
+        color: red;
+    }
+
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+
+    /* .dropdown:hover .dropbtn {background-color: #3e8e41;} */
+</style>
+
+<body>
+    <div>
+        <navbar class="navbar-container">
+            <div class="logo-container">
+                <a class="logo_environmental" href="index.html">Environmental Pollution</a>
+            </div>
+
+            <div class="bars">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+
+            <ul class="nav-items">
+                <li class="nav-link"><a href="#">Home</a></li>
+
+
+                <div class="dropdown nav-link">
+                    <li class="dropbtn">Types of Pollution</li>
+                    <div class="dropdown-content">
+                        <a href="#">Air pollution</a>
+                        <a href="#">Water pollution</a>
+                        <a href="#">Land pollution</a>
+                        <a href="#">Noise pollution</a>
+                        <a href="#">Light pollution</a>
+                    </div>
+                </div>
+
+
+                <li class="nav-link"><a href="#">About</a></li>
+                <div class="login-register">
+                    <a href="#" class="button">Feedback</a>
+                </div>
+            </ul>
+        </navbar>
+    </div>
+
+    <div class="Home-container">
+
+        <img src="/Environmental Pollution/img/img3.png" width="100%"
+            style="opacity: 0.3; position: relative; top: 120vh; ">
+        <div class="submenu">
+            <div class="air-group">
+                <li><a href="#" class="menu1 active">Overview</a></li><br>
+                <li><a href="#whatIs" class="menu1">What is air polution ?</a></li><br>
+                <li><a href="#" class="menu1 active">Causes </a></li><br>
+                <li><a href="#" class="menu1 active">Impact</a></li><br>
+                <li><a href="#" class="menu1 active">Todays earth</a></li><br>
+                <li><a href="#" class="menu1 active">Effects</a></li><br>
+                <li><a href="#" class="menu1 active">Advantages</a></li><br>
+                <li><a href="#" class="menu1 active">Disadvantades</a></li><br>
+                <li><a href="#" class="menu1 active">News</a></li><br>
+
+
+
+
+            </div>
+        </div>
+
+        <div class=" lorem  " style="text-align: justify; font-weight: 100; color: black;">
+            <div class="heading">
+                <h1>AIR POLLUTION</h1>
+            </div>
+             
+
+
+
+
+
+
+
+            <img id="image" class="air" src="img/img8.jpg"  >
+            <p></p>
+
+            <script>
+
+                var imageSources = ["img/img8.jpg","img/img8.jpg","img/img8.jpg","img/img8.jpg","img/img8.jpg",]
+
+                var index = 0;
+                setInterval(function () {
+                    if (index === imageSources.length) {
+                        index = 0;
+                    }
+                    document.getElementById("image").src = imageSources[index];
+                    index++;
+                }, 2000);
+
+            </script>
+
+
+
+
+
+
+
+
+
+
+
+            <div>
+
+
+                <h1 id="whatIs"> Overview </h1>
+                <p>
+                    &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp Air pollution is contamination of
+                    the
+                    indoor or outdoor environment by any chemical, physical or biological agent that modifies the
+                    natural
+                    characteristics of the atmosphere.
+
+                    Household combustion devices, motor vehicles, industrial facilities and forest fires are common
+                    sources
+                    of air pollution. Pollutants of major public health concern include particulate matter, carbon
+                    monoxide,
+                    ozone, nitrogen dioxide and sulfur dioxide. Outdoor and indoor air pollution cause respiratory and
+                    other
+                    diseases and are important sources of morbidity and mortality.
+
+                    WHO data show that almost all of the global population (99%) breathe air that exceeds WHO guideline
+                    limits and contains high levels of pollutants, with low- and middle-income countries suffering from
+                    the
+                    highest exposures.
+
+                    Air quality is closely linked to the earth’s climate and ecosystems globally. Many of the drivers of
+                    air
+                    pollution (i.e. combustion of fossil fuels) are also sources of greenhouse gas emissions. Policies
+                    to
+                    reduce air pollution, therefore, offer a win-win strategy for both climate and health, lowering the
+                    burden of disease attributable to air pollution, as well as contributing to the near- and long-term
+                    mitigation of climate change.
+
+                </p>
+
+                <h1 id="whatIs"> What Is Air Pollution?</h1>
+                <p>
+                    &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp Air pollution collectively
+                    describes
+                    the presence of a diverse and complex mixture of chemicals, particulate matter (PM), or of
+                    biological
+                    material in the ambient air which can cause harm
+                    or discomfort to humans or other living organisms. The sources of air pollution can either be
+                    natural
+                    (e.g., volcanic eruptions) or manmade (e.g., industrial activities), and air pollution emerges as a
+                    serious health problem especially
+                    in rapidly growing countries. Millions of people worldwide are chronically exposed to airborne
+                    pollutants in concentrations that are well above legal safety standards [1]. Therefore, morbidity
+                    and
+                    mortality attributable to air pollution
+                    continue to be a growing public health concern worldwide. Air pollution refers to the release of
+                    pollutants into the air—pollutants which are detrimental to human health and the planet as a whole.
+                    According to the World Health Organization
+                    (WHO), each year air pollution is responsible for nearly seve n million deaths around the globe.
+                    Nine
+                    out of ten human beings currently breathe air that exceeds the WHO’s guideline limits for
+                    pollutants,
+                    with those living in low- and middle-income
+                    countries suffering the most. In the United States, the Clean Air Act, established in 1970,
+                    authorizes
+                    the U.S. Environmental Protection Agency (EPA) to safeguard public health by regulating the
+                    emissions of
+                    these harmful air pollutants.
+                </p><br>
+            </div>
+            <div>
+
+
+                <h1> What Causes Air Pollution?</h1>
+                <p>
+                    &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp“Most air pollution comes from
+                    energy
+                    use and production,” says John Walke, director of the Clean Air Project, part of the Climate and
+                    Clean
+                    Energy program at NRDC. “Burning fossil fuels
+                    releases gases and chemicals into the air.” And in an especially destructive feedback loop, air
+                    pollution not only contributes to climate change but is also exacerbated by it. “Air pollution in
+                    the
+                    form of carbon dioxide and methane raises
+                    the earth’s temperature,” Walke says. “Another type of air pollution, smog, is then worsened by that
+                    increased heat, forming when the weather is warmer and there’s more ultraviolet radiation.” Climate
+                    change also increases the production
+                    of allergenic air pollutants, including mold (thanks to damp conditions caused by extreme weather
+                    and
+                    increased flooding) and pollen (due to a longer pollen season). “We’ve made progress over the last
+                    50
+                    years improving air quality in
+                    the United States thanks to the Clean Air Act,” says Kim Knowlton, senior scientist and deputy
+                    director
+                    of the NRDC Science Center. “But climate change will make it harder in the future to meet pollution
+                    standards, which are designed to
+                    protect health.”
+                </p><br>
+                <h1> Impact</h1>
+                <p>From smog hanging over cities to smoke inside the home, air pollution poses a major threat to health
+                    and
+                    climate.
+
+                    Ambient (outdoor) air pollution in both cities and rural areas is causing fine particulate matter
+                    which
+                    result in strokes, heart diseases, lung cancer, acute and chronic respiratory diseases.
+
+                    Additionally, around 2.4 billion people are exposed to dangerous levels of household air pollution,
+                    while using polluting open fires or simple stoves for cooking fuelled by kerosene, biomass (wood,
+                    animal
+                    dung and crop waste) and coal.
+
+                    The combined effects of ambient air pollution and household air pollution is associated with 7
+                    million
+                    premature deaths annually.
+
+                    Sources of air pollution are multiple and context specific. The major outdoor pollution sources
+                    include
+                    residential energy for cooking and heating, vehicles, power generation, agriculture/waste
+                    incineration,
+                    and industry. Policies and investments that support sustainable land use, cleaner household energy
+                    and
+                    transport, energy-efficient housing, power generation, industry, and better municipal waste
+                    management
+                    can effectively reduce key sources of ambient air pollution.</p>
+                <br>
+
+                <section class="slide" id="tab-portfolio">
+                    <h1>Todays earth </h1>
+
+                    <div class="cards">
+                        <div class="card">
+                            <img class="img_poluted" src="/Environmental Pollution/img/air_polution/1.jpg">
+                        </div>
+                        <div class="card">
+                            <img class="img_poluted" src="/Environmental Pollution/img/air_polution/2.jpg">
+                        </div>
+                        <div class="card">
+                            <img class="img_poluted" src="/Environmental Pollution/img/air_polution/3.jpg">
+                        </div>
+                        <div class="card">
+                            <img class="img_poluted" src="/Environmental Pollution/img/air_polution/4.jpg">
+                        </div>
+                        <div class="card">
+                            <img class="img_poluted" src="/Environmental Pollution/img/air_polution/5.jpg">
+                        </div>
+                        <div class="card">
+                            <img class="img_poluted" src="/Environmental Pollution/img/air_polution/6.jpg">
+                        </div>
+                        <div class="card">
+                            <img class="img_poluted" src="/Environmental Pollution/img/air_polution/7.jpg">
+                        </div>
+                        <div class="card">
+                            <img class="img_poluted" src="/Environmental Pollution/img/air_polution/8.jpg">
+                        </div>
+                        <div class="card">
+                            <img class="img_poluted" src="/Environmental Pollution/img/air_polution/9.jpg">
+                        </div>
+
+                </section>
+                <br>
+                <br>
+                <!-- <img src="/Environmental Pollution/img/21.jpg" width="100%" style="opacity: 0.5; position: absolute; "> -->
+
+                <h1>Effects of Air Pollution</h1>
+                <p>
+                    &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbspThe effects of air pollution on the
+                    human body vary depending on the type of pollutant and the length and level of exposure—as well as
+                    other
+                    factors, including a person’s individual health
+                    risks and the cumulative impacts of multiple pollutants or stressors.
+                </p><br>
+
+                <h1>Advantages of Air Pollution</h1>
+                <ul>
+                    <li>Nitrogen emissions from vehicles and factories could aid the growth of plants and trees.</li>
+                    <li>The heat-retaining characteristics of air-borne pollutants could keep cities that face extremely
+                        cold temperatures, warmer.</li>
+                    <li>Pollutants such as sulfur could cool down the earth and slow down global warming. </li>
+                    <li>aiding the growth of plants due to nitrogen emissions from vehicles and factories, certain
+                        pollutants such as sulfur could cool the planet and slow down global warming, and the ability of
+                        air-borne pollutants to retain heat would make
+                        extremely cold areas warmer and help the citizens from extremely cold temperatures. </li>
+                </ul><br>
+
+
+                <h1>Disadvantades of Air Pollution</h1>
+                <ul>
+                    <li>Approximately 7 million people die every year due to poor air quality. </li>
+                    <li>Chronic and acute health impacts as a result of air pollution have been extensively studied and
+                        it
+                        has been found to have severe impacts on the respiratory system, cardiovascular system,
+                        neurological
+                        systems, etc. </li>
+                    <li>Certain air pollutants have been found to bio-accumulate into crops grown, which are eventually
+                        consumed by humans, and could thus cause bio-accumulation of these toxic particles on our body.
+                    </li>
+                    <li>The heat-retention characteristics of air-borne pollutants increase global temperatures, causing
+                        global warming at alarming rates. IPCC states that global temperatures will not be limited to an
+                        increase of 1.5 ℃, and that could have devastating
+                        implications on the world around us.</li>
+                    <li>Increased risk for environmental disasters such as droughts, acid rains, etc. </li>
+                    <li>Increased costs need to be incurred by global and national actors to address the need for good
+                        air
+                        quality, leading to the need for increased investments into mitigation strategies.</li>
+                </ul><br>
+
+
+
+
+
+
+
+
+
+                <h1>NEWS</h1>
+                <div class='newscontainer'>
+                    <main>
+                        <div class='normal'>
+                            <!-- <p class='demo-title'>Normal</p> -->
+                            <br><br>
+                            <div class='module'>
+                                <div class='thumbnail'>
+                                    <img src="/Environmental Pollution/img/news1.jpg">
+
+                                </div>
+                                <div class='content'>
+                                    <div class="category">14 January</div>
+                                    <h1 class='title'>Close to one billion people globally are served by health-care
+                                        facilities with no electricity access with unreliable electricity</h1>
+                                    <!-- <h2 class='sub-title'>Close to one billion people globally are served by health-care
+                                        facilities with no electricity access or with unreliable electricity</h2> -->
+                                    <div class="description">
+
+                                        Close to 1 billion people in low- and lower-middle income countries are served
+                                        by health-care facilities with unreliable electricity supply or with no
+                                        electricity access at all, according to a new report from the World Health
+                                        Organization (WHO), the World Bank, the International Renewable Energy Agency
+                                        (IRENA), and Sustainable Energy for All (SEforAll). Access to electricity is
+                                        critical for quality health-care provision, from delivering babies to managing
+                                        emergencies like heart attacks, or offering lifesaving immunization. Without
+                                        reliable electricity in all health-care facilities, Universal Health Coverage
+                                        cannot be reached, the report notes.</div>
+                                    <div class="meta">
+                                        <span class="timestamp">
+                                            <!-- <i class='fa fa-clock-o'></i> 6 mins ago -->
+                                        </span>
+                                        <span class="comments">
+                                            <i class='fa fa-comments'></i>
+                                            <!-- <a href="#"> 39 comments</a> -->
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class='hover'>
+                            <!-- <p class='demo-title'>Hover</p> -->
+                            <br><br>
+                            <div class='module'>
+                                <div class='thumbnail'>
+                                    <img src="/Environmental Pollution/img/news4.jpg">
+
+                                </div>
+                                <div class='content'>
+                                    <div class="category">14 January</div>
+                                    <h1 class='title'>Close to one billion people globally are served by health-care
+                                        facilities with no electricity access with unreliable electricity</h1>
+                                    <!-- <h2 class='sub-title'>Close to one billion people globally are served by health-care
+                                        facilities with no electricity access or with unreliable electricity</h2> -->
+                                    <div class="description">
+
+                                        Close to 1 billion people in low- and lower-middle income countries are served
+                                        by health-care facilities with unreliable electricity supply or with no
+                                        electricity access at all, according to a new report from the World Health
+                                        Organization (WHO), the World Bank, the International Renewable Energy Agency
+                                        (IRENA), and Sustainable Energy for All (SEforAll). Access to electricity is
+                                        critical for quality health-care provision, from delivering babies to managing
+                                        emergencies like heart attacks, or offering lifesaving immunization. Without
+                                        reliable electricity in all health-care facilities, Universal Health Coverage
+                                        cannot be reached, the report notes.</div>
+                                    <div class="meta">
+                                        <span class="timestamp">
+                                            <!-- <i class='fa fa-clock-o'></i> 6 mins ago -->
+                                        </span>
+                                        <span class="comments">
+                                            <i class='fa fa-comments'></i>
+                                            <!-- <a href="#"> 39 comments</a> -->
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </main>
+                </div>
+
+                <div class='newscontainer'>
+
+                    <main>
+                        <div class='normal'>
+                            <br><br>
+                            <!-- <p class='demo-title'>Normal</p> -->
+                            <div class='module'>
+                                <div class='thumbnail'>
+                                    <img src="/Environmental Pollution/img/news2.jpg">
+
+                                </div>
+                                <div class='content'>
+                                    <div class="category">14 January</div>
+                                    <h1 class='title'>Close to one billion people globally are served by health-care
+                                        facilities with no electricity access with unreliable electricity</h1>
+                                    <!-- <h2 class='sub-title'>Close to one billion people globally are served by health-care
+                                        facilities with no electricity access or with unreliable electricity</h2> -->
+                                    <div class="description">
+
+                                        Close to 1 billion people in low- and lower-middle income countries are served
+                                        by health-care facilities with unreliable electricity supply or with no
+                                        electricity access at all, according to a new report from the World Health
+                                        Organization (WHO), the World Bank, the International Renewable Energy Agency
+                                        (IRENA), and Sustainable Energy for All (SEforAll). Access to electricity is
+                                        critical for quality health-care provision, from delivering babies to managing
+                                        emergencies like heart attacks, or offering lifesaving immunization. Without
+                                        reliable electricity in all health-care facilities, Universal Health Coverage
+                                        cannot be reached, the report notes.</div>
+                                    <div class="meta">
+                                        <span class="timestamp">
+                                            <!-- <i class='fa fa-clock-o'></i> 6 mins ago -->
+                                        </span>
+                                        <span class="comments">
+                                            <i class='fa fa-comments'></i>
+                                            <!-- <a href="#"> 39 comments</a> -->
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class='hover'>
+                            <!-- <p class='demo-title'>Hover</p> -->
+                            <br><br>
+                            <div class='module'>
+                                <div class='thumbnail'>
+                                    <img src="/Environmental Pollution/img/news3.jpg">
+
+                                </div>
+                                <div class='content'>
+                                    <div class="category">14 January</div>
+                                    <h1 class='title'>Close to one billion people globally are served by health-care
+                                        facilities with no electricity access with unreliable electricity</h1>
+                                    <!-- <h2 class='sub-title'>Close to one billion people globally are served by health-care
+                                        facilities with no electricity access or with unreliable electricity</h2> -->
+                                    <div class="description">
+
+                                        Close to 1 billion people in low- and lower-middle income countries are served
+                                        by health-care facilities with unreliable electricity supply or with no
+                                        electricity access at all, according to a new report from the World Health
+                                        Organization (WHO), the World Bank, the International Renewable Energy Agency
+                                        (IRENA), and Sustainable Energy for All (SEforAll). Access to electricity is
+                                        critical for quality health-care provision, from delivering babies to managing
+                                        emergencies like heart attacks, or offering lifesaving immunization. Without
+                                        reliable electricity in all health-care facilities, Universal Health Coverage
+                                        cannot be reached, the report notes.</div>
+                                    <div class="meta">
+                                        <span class="timestamp">
+                                            <!-- <i class='fa fa-clock-o'></i> 6 mins ago -->
+                                        </span>
+                                        <span class="comments">
+                                            <i class='fa fa-comments'></i>
+                                            <!-- <a href="#"> 39 comments</a> -->
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </main>
+                </div>
+
+                <div class='newscontainer'>
+
+                    <main>
+                        <div class='normal'>
+                            <!-- <p class='demo-title'>Normal</p> -->
+                            <br>
+                            <br>
+                            <div class='module'>
+                                <div class='thumbnail'>
+                                    <img src="/Environmental Pollution/img/news4.jpg">
+
+                                </div>
+                                <div class='content'>
+                                    <div class="category">14 January</div>
+                                    <h1 class='title'>Close to one billion people globally are served by health-care
+                                        facilities with no electricity access with unreliable electricity</h1>
+                                    <!-- <h2 class='sub-title'>Close to one billion people globally are served by health-care
+                                        facilities with no electricity access or with unreliable electricity</h2> -->
+                                    <div class="description">
+
+                                        Close to 1 billion people in low- and lower-middle income countries are served
+                                        by health-care facilities with unreliable electricity supply or with no
+                                        electricity access at all, according to a new report from the World Health
+                                        Organization (WHO), the World Bank, the International Renewable Energy Agency
+                                        (IRENA), and Sustainable Energy for All (SEforAll). Access to electricity is
+                                        critical for quality health-care provision, from delivering babies to managing
+                                        emergencies like heart attacks, or offering lifesaving immunization. Without
+                                        reliable electricity in all health-care facilities, Universal Health Coverage
+                                        cannot be reached, the report notes.</div>
+                                    <div class="meta">
+                                        <span class="timestamp">
+                                            <!-- <i class='fa fa-clock-o'></i> 6 mins ago -->
+                                        </span>
+                                        <span class="comments">
+                                            <i class='fa fa-comments'></i>
+                                            <!-- <a href="#"> 39 comments</a> -->
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class='hover'>
+                            <!-- <p class='demo-title'>Hover</p> -->
+                            <br><br>
+                            <div class='module'>
+                                <div class='thumbnail'>
+                                    <img src="/Environmental Pollution/img/news4.jpg">
+
+                                </div>
+                                <div class='content'>
+                                    <div class="category">14 January</div>
+                                    <h1 class='title'>Close to one billion people globally are served by health-care
+                                        facilities with no electricity access with unreliable electricity</h1>
+                                    <!-- <h2 class='sub-title'>Close to one billion people globally are served by health-care
+                                        facilities with no electricity access or with unreliable electricity</h2> -->
+                                    <div class="description">
+
+                                        Close to 1 billion people in low- and lower-middle income countries are served
+                                        by health-care facilities with unreliable electricity supply or with no
+                                        electricity access at all, according to a new report from the World Health
+                                        Organization (WHO), the World Bank, the International Renewable Energy Agency
+                                        (IRENA), and Sustainable Energy for All (SEforAll). Access to electricity is
+                                        critical for quality health-care provision, from delivering babies to managing
+                                        emergencies like heart attacks, or offering lifesaving immunization. Without
+                                        reliable electricity in all health-care facilities, Universal Health Coverage
+                                        cannot be reached, the report notes.</div>
+                                    <div class="meta">
+                                        <span class="timestamp">
+                                            <!-- <i class='fa fa-clock-o'></i> 6 mins ago -->
+                                        </span>
+                                        <span class="comments">
+                                            <i class='fa fa-comments'></i>
+                                            <!-- <a href="#"> 39 comments</a> -->
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </main>
+                </div>
+
+
+
+                <br><br><Br><br>
+
+
+
+            </div>
+
+        </div>
+
+</body>
+
+</html>
+
+</html>
+
+<!-- 
+for border like chatting 
+
+<div class="talk-bubble tri-right round border right-top">
+    <div class="talktext">
+      <p>And finally on the right flush at the top. Uses .round .border and .right-top ok</p>
+    </div>
+
+    and css
+    /* General CSS Setup */
+ 
+
+/* CSS talk bubble */
+.talk-bubble {
+	margin: 40px;
+  display: inline-block;
+  position: relative;
+	width: 200px;
+	height: auto;
+	background-color: lightyellow;
+}
+.border{
+  border: 8px solid #666;
+}
+.round{
+  border-radius: 30px;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+
+}
+ 
+/* Right triangle placed top right flush. */
+.tri-right.border.right-top:before {
+	content: ' ';
+	position: absolute;
+	width: 0;
+	height: 0;
+  left: auto;
+	right: -40px;
+  top: -8px;
+	bottom: auto;
+	border: 32px solid;
+	border-color: #666 transparent transparent transparent;
+}
+.tri-right.right-top:after{
+	content: ' ';
+	position: absolute;
+	width: 0;
+	height: 0;
+  left: auto;
+	right: -20px;
+  top: 0px;
+	bottom: auto;
+	border: 20px solid;
+	border-color: lightyellow transparent transparent transparent;
+}
+
+/* talk bubble contents */
+.talktext{
+  padding: 1em;
+	text-align: left;
+  line-height: 1.5em;
+}
+.talktext p{
+  /* remove webkit p margins */
+  -webkit-margin-before: 0em;
+  -webkit-margin-after: 0em;
+} -->

@@ -1,0 +1,30 @@
+.submenu {
+    font-size: large;
+    /* width: 100%; */
+    top: -16vh;
+    position: fixed;
+}
+
+.air-group {
+    background-color: #090908;
+    font-family: 'Open Sans', sans-serif;
+    border-top-right-radius: 20px;
+    margin-top: 31vh;
+    position: relative;
+    display: block;
+    padding-top: 4vh;
+    padding-left: 2vw;
+    width: 20vw;
+    line-height: 34px;
+    height: 86vh;
+}
+
+a.menu1 {
+    color: #ffffff;
+}
+
+a.menu1:focus,
+a.menu1:hover {
+    color: #0e100f;
+    background-color: #C3C3E5;
+}

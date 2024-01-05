@@ -1,0 +1,126 @@
+ 
+.main {
+    margin-top: 31vh;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+
+.containerr {
+    height: 500px;
+    width: 350px;
+    box-shadow: 0 10px 20px black;
+    background-size: cover;
+    font-family: 'Abel', sans-serif;
+    background-image: url("/img/preeti.jpg");
+    margin: 20px;
+}
+.shreya{
+    background-image: url("/img/shreya.jpg");
+}
+
+.gradient {
+    height: 100%;
+    width: 100%;
+    top: 0;
+    background: linear-gradient(to top, rgba(28, 171, 238, 0.7), rgba(253, 252, 252, 0.21));
+    color: white;
+}
+
+.content {
+    bottom: 0;
+    position: absolute;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+
+h2 {
+    font-size: xx-large;
+    letter-spacing: -1px;
+}
+
+.details {
+    font-style: italic;
+    color: rgb(185, 206, 224);
+}
+
+.icons {
+    display: flex;
+    flex-direction: column;
+    top: -30px;
+    position: absolute;
+    left: 85%;
+}
+
+.icons img {
+    font-size: 25px;
+    margin-bottom: 20px;
+    color: rgb(202, 215, 226);
+    transition: 0.3s;
+    width: 81px;
+    margin: -51px;
+    margin-top: 100px;
+}
+
+.icons img:hover {
+    color: white;
+}
+
+@media screen and(min-width:200px) {
+    .container {
+        height: 350px;
+        width: 200px;
+    }
+    h2 {
+        font-size: x-large;
+    }
+    .icons img {
+        font-size: large;
+        margin-bottom: 10px;
+    }
+}
+
+
+
+ 
+article {
+    padding: 1rem;
+    max-width: 60rem;
+    margin: 0 auto;
+  }
+  .abouth1 {
+    font-size: 3rem;
+    line-height: 3.5rem;
+    font-weight: 900;
+    text-transform: capitalize;
+  }
+ .abouth2 {
+    text-transform: capitalize;
+  }
+  .aboutpara {
+    text-align: justify;
+    hyphens: auto;
+  }
+  
+  /* different style for 1st paragraph*/
+  .aboutpara:first-of-type {
+    font-size: 1.1rem;
+  }
+  /* Drop Cap */
+  .aboutpara:first-of-type:first-letter {
+    font-size: 4.2rem;
+    font-weight: bold;
+    float: left;
+    display: inline-block;
+    margin-top: 0.5rem;
+    padding-right: 0.15rem;
+    color: white;
+    background-color: red;
+    padding: 1.2rem 0.5rem;
+    margin-right: 0.5rem;
+  }
+  .aboutpara:first-of-type:first-line {
+    font-weight: bold;
+  }
+  

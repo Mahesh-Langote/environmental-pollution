@@ -1,0 +1,151 @@
+body{
+    font-size: x-large;
+    background: rgb(193,226,178);
+}
+.home_container1 .home_head2 {
+    background: rgb(193,226,178);
+    height: 100vh;
+}
+.home_head2 {
+    height: 150vh;
+}
+
+h1 h4 {
+
+    color: #121212;
+    font-family: GeographEditWeb, Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    line-height: 1.2;
+}
+
+.home_head {
+    width: 60%;
+    top: 35vh;
+    position: relative;
+    /* margin: 0 10px 46px 1vw; */
+    margin-left: 35vw;
+    /* margin-right: 20vw; */
+
+    line-height: 1.75rem;
+}
+
+.home_head2 {
+    width: 100%;
+    top: 5vh;
+    position: relative;
+    /* margin: 0 10px 46px 1vw; */
+    margin-left: 1vw;
+    margin-right: 22px;
+
+    line-height: 1.75rem;
+}
+
+.container2{
+    width: 97vw;
+    margin: 0 1vw 0 1vw;
+}
+
+.frame {
+    width: 100%;
+    height: 300px;
+    margin-top: 5vh;
+}
+
+.boxes {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.box {
+    position: relative;
+    flex: 1 1 auto;
+    width: 20%;
+    background: grey;
+    transition: all 0.8s ease-in-out;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.text {
+    position: absolute;
+    transform: scale(0.5);
+    font-weight: 700;
+    font-size: 30px;
+    text-transform: uppercase;
+    transition: all .5s ease-in-out;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition-delay: 0.5s;
+    transform: translateX(-80px);
+}
+
+a.text {
+    color: #FFF;
+    opacity: 0;
+    line-height: 300px;
+    text-decoration: none;
+}
+
+.box-1,
+.box-2,
+.box-3,
+.box-4 {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.box-1:hover {
+    width: 100%;
+}
+
+.box-1:hover .text {
+    opacity: 1;
+    transform: scale(1);
+}
+
+.box-2:hover {
+    width: 100%;
+}
+
+.box-2:hover .text {
+    opacity: 1;
+    transform: scale(1);
+}
+
+.box-3:hover {
+    width: 100%;
+}
+
+.box-3:hover .text {
+    opacity: 1;
+    transform: scale(1);
+}
+
+.box-4:hover {
+    width: 100%;
+}
+
+.box-4:hover .text {
+    opacity: 1;
+    transition: 0.5s all ease;
+    transform: scale(1);
+}
+
+.box-1 {
+    background-image: url("img/air-pollution.jpg")
+}
+
+.box-2 {
+    background-image: url("img/noise_pollution.jpg")
+}
+
+.box-3 {
+    background-image: url("img/water_pollution.jpg")
+}
+
+.box-4 {
+    background-image: url("img/light_pollution.jpg")
+}

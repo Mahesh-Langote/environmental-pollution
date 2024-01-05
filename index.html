@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Environmental Pollution</title> 
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="nav.css"> 
+</head>
+
+<body>
+    <div>
+        <div class="container">
+            <header>
+                <div class="container-box">
+                    <nav class="navbar">
+                        <h1 class="logo" style="color: aliceblue;"> Environmental Pollution</h1>
+                        <ul style="display: flex;">
+                            <li><a class="current" href="index.html">Home</a></li> 
+                            <li><a href="HTML/about.html">About Us</a></li>
+                            <div class="dropdown">
+                                <li><a class="dropbtn" href="#">Pollution</a></li>
+                                <div class="dropdown-content">
+                                    <a href="HTML/air_pollution.html">Air polution</a>
+                                    <a href="HTML/water_pollution.html">Water Polution</a>
+                                    <a href="HTML/soil_pollution.html">Soil Polution</a>
+                                    <a href="HTML/sound_pollution.html">Noise Polution</a>
+                                </div>
+                            </div>
+                            <li><a href="HTML/feedback.html">feedback</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </header>
+        </div>
+
+
+        <div style="width: 100vw; height: 12vh;">
+            <img id="imagehead" class="air" src="img/home13.jpg" style="width: 100vw; height: 102vh;">
+            <p></p>
+
+
+        </div>
+        <div class="home_container1">
+
+            <div style="display: flex;">
+                <div style="margin: 20px;">
+                    <img src="img/gif.gif">
+                </div>
+
+                <div class="heading">
+
+                    <div class="animation" style="width: 60vw; text-align: center; position: absolute; top: 30vh; ">
+
+                        <h3 style="    font-size: 45px; 
+                        text-shadow: -1px 0px 0px black, 1px 0px 0px black, 0px -1px 0px black, 0px 1px 0px black;color: white;"
+                            id="changeText">World Water Day 2023: Be the change you want to see in
+                            the world</h3>
+                        <br><br>
+                        <p id="changePara"
+                            style="font-size: 30px; width: 50vw; 
+                        text-shadow: -1px 0px 0px black, 1px 0px 0px black, 0px -1px 0px black, 0px 1px 0px black;color: white;">As
+                            every year, on March 22 World Water Day is celebrated in order to raise
+                            awareness about the importance of water in our planet </p>
+
+                    </div>
+
+
+                    <script>
+
+                        var text = ["The importance of multilateralism for environmental agreements , protect nature.", "What conclusions can we draw from the UN’s first water conference in 50 years?", "The High Seas Treaty, an historic agreement for the planet ", "To fulfil the Paris Agreement by 2030, the energy transition must begin now"];
+                        var counter = 0;
+                        var elem = document.getElementById("changeText");
+                        var inst = setInterval(change, 2000);
+                        var textt = ["Climate change cannot be tackled alone. When global problems are the issue, countries join forces in multilateral projects", "The second UN Water Conference in history concluded with a Water Action Agenda, an agreement that is non-binding but full of sustainability proposals.", "The UN strikes an historic deal to safeguard marine life, protecting 30% of the oceans by 2030. Below, why this is such a significant milestone for the planet.", "The last report by IRENA presents the areas where actions must be carried out before 2030 to achieve net emissions mid this century."];
+                        var elemm = document.getElementById("changePara");
+                        var inst = setInterval(change, 2000);
+
+
+
+                        function change() {
+                            elem.innerHTML = text[counter];
+                            elemm.innerHTML = textt[counter];
+
+
+
+                            counter++;
+                            if (counter >= text.length) {
+                                counter = 0;
+                            }
+                        }
+  
+
+                    </script>
+
+
+                </div>
+            </div>
+            <div style="width: 100%; display: flex; margin-top:18vh; background: rgb(193,226,178);">
+                <div style="position: absolute; top: 125vh;">
+                    <img src="img/home1.png">
+                </div>
+                <div class="home_head"
+                    style="width: 60vw; height: 100vh; color: #121212; font-family: GeographEditWeb,Helvetica,Arial,sans-serif; line-height: 1.2;">
+                    <h1 style="text-align: center; border-bottom: 2px solid black;">Why Pollution?</h1>
+                    <br>
+
+                    <p style="text-align: justify;">
+                        &nbsp; &nbsp; &nbsp; Pollution is the introduction of harmful materials into the environment.
+                        These harmful materials are called pollutants. Pollutants can be natural, such as volcanic ash.
+                        They can also be created by human activity, such as trash or runoff produced by factories.
+                        Pollutants damage the quality of air, water, and land.
+
+                    </p><br>
+
+                    <p style="text-align: justify;">
+                        &nbsp; &nbsp; &nbsp;Pollution is a global problem. Although urban areas are usually more
+                        polluted than the countryside, pollution can spread to remote places where no people live. For
+                        example, pesticides and other chemicals have been found in the Antarctic ice sheet. In the
+                        middle of the northern Pacific Ocean, a huge collection of microscopic plastic particles forms
+                        what is known as the Great Pacific Garbage Patch.
+
+                    </p><br>
+
+                    <p style="text-align: justify;">
+                        &nbsp; &nbsp; &nbsp;Pollution is the introduction of harmful materials into the environment.
+                        These harmful materials are called pollutants. Pollutants can be natural, such as volcanic ash.
+                        They can also be created by human activity, such as trash or runoff produced by factories.
+                        Pollutants damage the quality of air, water, and land.
+
+                    </p><br>
+
+
+
+                </div>
+            </div>
+            <div class="container2">
+                <div class="row">
+                    <div class="frame">
+                        <div class="boxes">
+                            <div class="box box-1">
+                                <a href="HTML/air_pollution.html" class="text">Air Pollution </a>
+                            </div>
+                            <div class="box box-2">
+
+                                <a href="HTML/sound_pollution.html" class="text">Sound Pollution</a>
+                            </div>
+                            <div class="box box-3">
+                                <a href="HTML/water_pollution.html" class="text">Water  Pollution</a>
+                            </div>
+                            <div class="box box-4">
+                                <a href="HTML/light_pollution.html" class="text"> Light Pollution</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div style="display: flex; background-color:rgb(193,226,178);">
+
+                <div class="home_head2"
+                    style="color: #121212; font-family: GeographEditWeb,Helvetica,Arial,sans-serif; line-height: 1.2;">
+                    <h1 style="text-align: center; border-bottom: 2px solid black;">The Pollution Problem</h1>
+                    <p style="text-align: justify;">&nbsp; &nbsp; &nbsp;Pollution, also called environmental pollution,
+                        the addition of any substance
+                        (solid, liquid, or gas) or any form of energy (such as heat, sound, or radioactivity) to the
+                        environment at a rate faster than it can be dispersed, diluted, decomposed, recycled, or stored
+                        in
+                        some harmless form. The major kinds of pollution, usually classified by environment, are air
+                        pollution, water pollution, and land pollution. Modern society is also concerned about specific
+                        types of pollutants, such as noise pollution, light pollution, and plastic pollution. </p> <br>
+                    <h1 style="text-align: center; border-bottom: 2px solid black;">History of pollution</h1>
+                    <br>
+                    <p style="text-align: justify;">&nbsp; &nbsp; &nbsp;Although environmental pollution can be caused
+                        by natural events
+                        such as forest fires and active volcanoes, use of the word pollution generally implies that the
+                        contaminants have an anthropogenic source—that is, a source created by human activities.
+                        Pollution has accompanied humankind ever since groups of people first congregated and remained
+                        for a long time in any one place. Indeed, ancient human settlements are frequently recognized by
+                        their wastes—shell mounds and rubble heaps, for instance. </p><br>
+
+
+                    <strong style="color: #80B956;">"By the middle of the 20th century, an awareness of the need to
+                        protect air, water, and land environments from pollution had developed among the general
+                        public.</strong> <br> <br>
+                    <p style="text-align: justify;">&nbsp; &nbsp; &nbsp;By the middle of the 20th century, an awareness
+                        of the need to
+                        protect air, water, and land environments from pollution had developed among the general public.
+                        In particular, the publication in 1962 of Rachel Carson’s book Silent Spring focused attention
+                        on environmental damage caused by improper use of pesticides such as DDT and other persistent
+                        chemicals that accumulate in the food chain and disrupt the natural balance of ecosystems on a
+                        wide scale. In response, major pieces of environmental legislation, such as the Clean Air Act
+                        (1970) and the Clean Water Act (1972; United States), were passed in many countries to control
+                        and mitigate environmental pollution.
+
+                    </p> <br>
+                    <h1 style="text-align: center; border-bottom: 2px solid black;">Pollution control</h1>
+                    <br>
+                    <p style="text-align: justify;">&nbsp; &nbsp; &nbsp;The presence of environmental pollution raises
+                        the issue of
+                        pollution control. Great efforts are made to limit the release of harmful substances into the
+                        environment through air pollution control, wastewater treatment, solid-waste management,
+                        hazardous-waste management, and recycling. Unfortunately, attempts at pollution control are
+                        often surpassed by the scale of the problem, especially in less-developed countries. Noxious
+                        levels of air pollution are common in many large cities, where particulates and gases from
+                        transportation, heating, and manufacturing accumulate and linger. The problem of plastic
+                        pollution on land and in the oceans has only grown as the use of single-use plastics has
+                        burgeoned worldwide. In addition, greenhouse gas emissions, such as methane and carbon dioxide
+                    </p>
+                </div>
+                <div>
+                    <br><br>
+                    <img  src="img/home2.jpg">
+                </div>
+            </div>
+            <div>
+                <img style="border-radius: 15px; margin: 1%;" src="img/home3.jpg" width="98%">
+            </div>
+
+            <footer>
+                <div class="footer-copyright">
+                    <p>Copyright @ 2023 All Rights Reserved.</p>
+            </footer>
+        </div>
+    </div>
+
+</body>
+
+</html>
+
+</html>
